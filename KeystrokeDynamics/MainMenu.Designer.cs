@@ -37,11 +37,12 @@ namespace KeystrokeDynamics {
             // lblTitle
             // 
             this.lblTitle.AutoSize = true;
-            this.lblTitle.Font = new System.Drawing.Font("Futura Hv BT", 36F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(183)))), ((int)(((byte)(20)))));
-            this.lblTitle.Location = new System.Drawing.Point(67, 47);
+            this.lblTitle.Location = new System.Drawing.Point(114, 58);
+            this.lblTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(281, 58);
+            this.lblTitle.Size = new System.Drawing.Size(325, 69);
             this.lblTitle.TabIndex = 0;
             this.lblTitle.Text = "Main Menu";
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -51,11 +52,12 @@ namespace KeystrokeDynamics {
             this.btnNewProfile.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(52)))), ((int)(((byte)(55)))));
             this.btnNewProfile.FlatAppearance.BorderSize = 0;
             this.btnNewProfile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnNewProfile.Font = new System.Drawing.Font("Futura Hv BT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNewProfile.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNewProfile.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(183)))), ((int)(((byte)(20)))));
-            this.btnNewProfile.Location = new System.Drawing.Point(101, 138);
+            this.btnNewProfile.Location = new System.Drawing.Point(135, 170);
+            this.btnNewProfile.Margin = new System.Windows.Forms.Padding(4);
             this.btnNewProfile.Name = "btnNewProfile";
-            this.btnNewProfile.Size = new System.Drawing.Size(213, 60);
+            this.btnNewProfile.Size = new System.Drawing.Size(284, 74);
             this.btnNewProfile.TabIndex = 1;
             this.btnNewProfile.Text = "Create New Profile";
             this.btnNewProfile.UseVisualStyleBackColor = false;
@@ -66,11 +68,12 @@ namespace KeystrokeDynamics {
             this.btnUpdateProfile.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(52)))), ((int)(((byte)(55)))));
             this.btnUpdateProfile.FlatAppearance.BorderSize = 0;
             this.btnUpdateProfile.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnUpdateProfile.Font = new System.Drawing.Font("Futura Hv BT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdateProfile.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdateProfile.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(183)))), ((int)(((byte)(20)))));
-            this.btnUpdateProfile.Location = new System.Drawing.Point(88, 235);
+            this.btnUpdateProfile.Location = new System.Drawing.Point(117, 289);
+            this.btnUpdateProfile.Margin = new System.Windows.Forms.Padding(4);
             this.btnUpdateProfile.Name = "btnUpdateProfile";
-            this.btnUpdateProfile.Size = new System.Drawing.Size(238, 60);
+            this.btnUpdateProfile.Size = new System.Drawing.Size(317, 74);
             this.btnUpdateProfile.TabIndex = 2;
             this.btnUpdateProfile.Text = "Update Existing Profile";
             this.btnUpdateProfile.UseVisualStyleBackColor = false;
@@ -81,11 +84,12 @@ namespace KeystrokeDynamics {
             this.btnIdentify.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(52)))), ((int)(((byte)(55)))));
             this.btnIdentify.FlatAppearance.BorderSize = 0;
             this.btnIdentify.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnIdentify.Font = new System.Drawing.Font("Futura Hv BT", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIdentify.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIdentify.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(183)))), ((int)(((byte)(20)))));
-            this.btnIdentify.Location = new System.Drawing.Point(73, 399);
+            this.btnIdentify.Location = new System.Drawing.Point(97, 491);
+            this.btnIdentify.Margin = new System.Windows.Forms.Padding(4);
             this.btnIdentify.Name = "btnIdentify";
-            this.btnIdentify.Size = new System.Drawing.Size(268, 60);
+            this.btnIdentify.Size = new System.Drawing.Size(357, 74);
             this.btnIdentify.TabIndex = 3;
             this.btnIdentify.Text = "Identify Anonymous User";
             this.btnIdentify.UseVisualStyleBackColor = false;
@@ -95,13 +99,14 @@ namespace KeystrokeDynamics {
             // 
             this.cbProfiles.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(52)))), ((int)(((byte)(55)))));
             this.cbProfiles.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cbProfiles.Font = new System.Drawing.Font("Futura Hv BT", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbProfiles.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbProfiles.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(183)))), ((int)(((byte)(20)))));
             this.cbProfiles.FormattingEnabled = true;
             this.cbProfiles.IntegralHeight = false;
-            this.cbProfiles.Location = new System.Drawing.Point(105, 319);
+            this.cbProfiles.Location = new System.Drawing.Point(140, 393);
+            this.cbProfiles.Margin = new System.Windows.Forms.Padding(4);
             this.cbProfiles.Name = "cbProfiles";
-            this.cbProfiles.Size = new System.Drawing.Size(205, 30);
+            this.cbProfiles.Size = new System.Drawing.Size(272, 37);
             this.cbProfiles.TabIndex = 4;
             this.cbProfiles.SelectedIndexChanged += new System.EventHandler(this.cbProfiles_SelectedIndexChanged);
             // 
@@ -109,19 +114,20 @@ namespace KeystrokeDynamics {
             // 
             this.pbClose.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pbClose.BackgroundImage")));
             this.pbClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbClose.Location = new System.Drawing.Point(388, 12);
+            this.pbClose.Location = new System.Drawing.Point(517, 15);
+            this.pbClose.Margin = new System.Windows.Forms.Padding(4);
             this.pbClose.Name = "pbClose";
-            this.pbClose.Size = new System.Drawing.Size(15, 15);
+            this.pbClose.Size = new System.Drawing.Size(20, 18);
             this.pbClose.TabIndex = 5;
             this.pbClose.TabStop = false;
             this.pbClose.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // MainMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(52)))), ((int)(((byte)(55)))));
-            this.ClientSize = new System.Drawing.Size(415, 513);
+            this.ClientSize = new System.Drawing.Size(553, 631);
             this.Controls.Add(this.pbClose);
             this.Controls.Add(this.cbProfiles);
             this.Controls.Add(this.btnIdentify);
@@ -130,6 +136,7 @@ namespace KeystrokeDynamics {
             this.Controls.Add(this.lblTitle);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "MainMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

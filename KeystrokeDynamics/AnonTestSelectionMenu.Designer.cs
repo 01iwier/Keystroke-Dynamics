@@ -39,9 +39,10 @@ namespace KeystrokeDynamics {
             // 
             this.pbClose.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pbClose.BackgroundImage")));
             this.pbClose.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pbClose.Location = new System.Drawing.Point(306, 12);
+            this.pbClose.Location = new System.Drawing.Point(408, 15);
+            this.pbClose.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pbClose.Name = "pbClose";
-            this.pbClose.Size = new System.Drawing.Size(15, 15);
+            this.pbClose.Size = new System.Drawing.Size(20, 18);
             this.pbClose.TabIndex = 7;
             this.pbClose.TabStop = false;
             this.pbClose.Click += new System.EventHandler(this.pbClose_Click);
@@ -49,11 +50,12 @@ namespace KeystrokeDynamics {
             // lblTitle
             // 
             this.lblTitle.AutoSize = true;
-            this.lblTitle.Font = new System.Drawing.Font("Futura Hv BT", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitle.Font = new System.Drawing.Font("Microsoft Sans Serif", 28.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(183)))), ((int)(((byte)(20)))));
-            this.lblTitle.Location = new System.Drawing.Point(37, 38);
+            this.lblTitle.Location = new System.Drawing.Point(63, 47);
+            this.lblTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblTitle.Name = "lblTitle";
-            this.lblTitle.Size = new System.Drawing.Size(259, 45);
+            this.lblTitle.Size = new System.Drawing.Size(319, 54);
             this.lblTitle.TabIndex = 8;
             this.lblTitle.Text = "Test Selection";
             this.lblTitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -63,11 +65,12 @@ namespace KeystrokeDynamics {
             this.btnType.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(52)))), ((int)(((byte)(55)))));
             this.btnType.FlatAppearance.BorderSize = 0;
             this.btnType.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnType.Font = new System.Drawing.Font("Futura Hv BT", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnType.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(183)))), ((int)(((byte)(20)))));
-            this.btnType.Location = new System.Drawing.Point(79, 115);
+            this.btnType.Location = new System.Drawing.Point(105, 142);
+            this.btnType.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnType.Name = "btnType";
-            this.btnType.Size = new System.Drawing.Size(174, 47);
+            this.btnType.Size = new System.Drawing.Size(232, 58);
             this.btnType.TabIndex = 9;
             this.btnType.Text = "Typing Test";
             this.btnType.UseVisualStyleBackColor = false;
@@ -78,11 +81,12 @@ namespace KeystrokeDynamics {
             this.btnMouse.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(52)))), ((int)(((byte)(55)))));
             this.btnMouse.FlatAppearance.BorderSize = 0;
             this.btnMouse.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMouse.Font = new System.Drawing.Font("Futura Hv BT", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMouse.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMouse.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(183)))), ((int)(((byte)(20)))));
-            this.btnMouse.Location = new System.Drawing.Point(79, 202);
+            this.btnMouse.Location = new System.Drawing.Point(105, 249);
+            this.btnMouse.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnMouse.Name = "btnMouse";
-            this.btnMouse.Size = new System.Drawing.Size(174, 47);
+            this.btnMouse.Size = new System.Drawing.Size(232, 58);
             this.btnMouse.TabIndex = 10;
             this.btnMouse.Text = "Mouse Test";
             this.btnMouse.UseVisualStyleBackColor = false;
@@ -97,11 +101,12 @@ namespace KeystrokeDynamics {
             this.cbType.AutoSize = true;
             this.cbType.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(52)))), ((int)(((byte)(55)))));
             this.cbType.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.cbType.Font = new System.Drawing.Font("Futura Hv BT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbType.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbType.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(183)))), ((int)(((byte)(20)))));
-            this.cbType.Location = new System.Drawing.Point(281, 132);
+            this.cbType.Location = new System.Drawing.Point(375, 162);
+            this.cbType.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbType.Name = "cbType";
-            this.cbType.Size = new System.Drawing.Size(15, 14);
+            this.cbType.Size = new System.Drawing.Size(18, 17);
             this.cbType.TabIndex = 11;
             this.cbType.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.cbType.UseVisualStyleBackColor = false;
@@ -114,11 +119,12 @@ namespace KeystrokeDynamics {
             this.cbMouse.AutoCheck = false;
             this.cbMouse.AutoSize = true;
             this.cbMouse.CheckAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.cbMouse.Font = new System.Drawing.Font("Futura Hv BT", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cbMouse.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbMouse.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(183)))), ((int)(((byte)(20)))));
-            this.cbMouse.Location = new System.Drawing.Point(281, 219);
+            this.cbMouse.Location = new System.Drawing.Point(375, 270);
+            this.cbMouse.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cbMouse.Name = "cbMouse";
-            this.cbMouse.Size = new System.Drawing.Size(15, 14);
+            this.cbMouse.Size = new System.Drawing.Size(18, 17);
             this.cbMouse.TabIndex = 12;
             this.cbMouse.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.cbMouse.UseVisualStyleBackColor = true;
@@ -128,11 +134,12 @@ namespace KeystrokeDynamics {
             this.btnIdentify.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(52)))), ((int)(((byte)(55)))));
             this.btnIdentify.FlatAppearance.BorderSize = 0;
             this.btnIdentify.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnIdentify.Font = new System.Drawing.Font("Futura Hv BT", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIdentify.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIdentify.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(183)))), ((int)(((byte)(20)))));
-            this.btnIdentify.Location = new System.Drawing.Point(71, 289);
+            this.btnIdentify.Location = new System.Drawing.Point(95, 356);
+            this.btnIdentify.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnIdentify.Name = "btnIdentify";
-            this.btnIdentify.Size = new System.Drawing.Size(191, 47);
+            this.btnIdentify.Size = new System.Drawing.Size(255, 58);
             this.btnIdentify.TabIndex = 13;
             this.btnIdentify.Text = "Identify User";
             this.btnIdentify.UseVisualStyleBackColor = false;
@@ -140,10 +147,10 @@ namespace KeystrokeDynamics {
             // 
             // AnonTestSelectionMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(52)))), ((int)(((byte)(55)))));
-            this.ClientSize = new System.Drawing.Size(333, 381);
+            this.ClientSize = new System.Drawing.Size(444, 469);
             this.Controls.Add(this.btnIdentify);
             this.Controls.Add(this.cbMouse);
             this.Controls.Add(this.cbType);
@@ -152,6 +159,7 @@ namespace KeystrokeDynamics {
             this.Controls.Add(this.lblTitle);
             this.Controls.Add(this.pbClose);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "AnonTestSelectionMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
