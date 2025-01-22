@@ -23,7 +23,7 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationRevision>2</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -164,6 +164,23 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="setup\Application Files\KeystrokeDynamics_1_0_0_1\assets\targetDouble.png.deploy" />
+    <None Include="setup\Application Files\KeystrokeDynamics_1_0_0_1\assets\targetScroll.png.deploy" />
+    <None Include="setup\Application Files\KeystrokeDynamics_1_0_0_1\assets\targetSingle.png.deploy" />
+    <None Include="setup\Application Files\KeystrokeDynamics_1_0_0_1\assets\words.txt.deploy" />
+    <None Include="setup\Application Files\KeystrokeDynamics_1_0_0_1\database\dbo.CombinedUserData.sql.deploy" />
+    <None Include="setup\Application Files\KeystrokeDynamics_1_0_0_1\database\dbo.KeyData.sql.deploy" />
+    <None Include="setup\Application Files\KeystrokeDynamics_1_0_0_1\database\dbo.MouseData.sql.deploy" />
+    <None Include="setup\Application Files\KeystrokeDynamics_1_0_0_1\database\dbo.Users.sql.deploy" />
+    <None Include="setup\Application Files\KeystrokeDynamics_1_0_0_1\database\dbo.View.sql.deploy" />
+    <None Include="setup\Application Files\KeystrokeDynamics_1_0_0_1\database\TestDB.mdf.deploy" />
+    <None Include="setup\Application Files\KeystrokeDynamics_1_0_0_1\database\TestDB_log.ldf.deploy" />
+    <None Include="setup\Application Files\KeystrokeDynamics_1_0_0_1\KeystrokeDynamics.application" />
+    <None Include="setup\Application Files\KeystrokeDynamics_1_0_0_1\KeystrokeDynamics.exe.config.deploy" />
+    <None Include="setup\Application Files\KeystrokeDynamics_1_0_0_1\KeystrokeDynamics.exe.deploy" />
+    <None Include="setup\Application Files\KeystrokeDynamics_1_0_0_1\KeystrokeDynamics.exe.manifest" />
+    <None Include="setup\Application Files\KeystrokeDynamics_1_0_0_1\taskbar icon.ico.deploy" />
+    <None Include="setup\KeystrokeDynamics.application" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -184,6 +201,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>TestDB.mdf</DependentUpon>
     </Content>
+    <Content Include="setup\setup.exe" />
     <Content Include="taskbar icon.ico" />
     <Content Include="assets\words.txt" />
   </ItemGroup>
